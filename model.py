@@ -21,7 +21,7 @@ ALWAYS ANSWER IN RUSSIAN
 <
 {table}
 >
-<<Inquiry:{inquiry}>>
+<<Inquiry:{prompt_table()}>>
         """
     )
     return user_message
